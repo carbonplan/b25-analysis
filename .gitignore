@@ -21,6 +21,9 @@ figures/fx-soilCo2/
 figures/supp/fx-buffer-lr/
 figures/supp/fx-lr-hist/
 
+# Zenodo staging
+/zenodo/
+
 .venv/
 __pycache__/
 *.pyc
