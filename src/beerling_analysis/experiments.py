@@ -407,7 +407,7 @@ def carbonate_fields(run, with_e1=True, with_e2=True, with_cb=True):
       frac_cap_negative               from `e2`; 0 on every site run.
       frac_ceiling_collapsed          fraction of live node-times where
                                       buffered Ca_sat has collapsed below
-                                      the thermodynamic one. Notebook 05.
+                                      the thermodynamic one.
 
     `Ca_precip_e1` is omitted (it is `Ca_sol + Ca_precip - Ca_sol_e1`, but does
     not integrate to `cdr_precip_e1`, which also reclaims Ca E0 exported).
