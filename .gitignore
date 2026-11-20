@@ -1,0 +1,28 @@
+# Model results pulled from S3 (~250 MB). Re-fetch with beerling_analysis.io.fetch_all().
+cache/
+
+# Generated figures are cheap to regenerate; keep the repo light. The notebooks
+# under figures/fx-*/ that draw them are kept.
+figures/**/*.png
+figures/**/*.pdf
+# Per-figure output dirs: rendered panels, Illustrator working files, final exports.
+figures/fx*/panels/
+figures/fx*/illustrator/
+figures/fx*/final/
+.vscode
+cache/
+
+
+# Scratch investigations, not yet part of the analysis set.
+tests/
+figures/fx-ph/
+figures/fx-lime-rec/
+figures/fx-soilCo2/
+figures/supp/fx-buffer-lr/
+figures/supp/fx-lr-hist/
+
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
